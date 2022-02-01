@@ -23,7 +23,6 @@ import com.vendas.repositories.UserRepository;
 
 @Configuration
 public class InicialBD implements CommandLineRunner {
-
 	
 	@Autowired
 	private UserRepository userRepository;
